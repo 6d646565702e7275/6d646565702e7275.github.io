@@ -1,0 +1,46 @@
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{%- unless page.layout == "home" -%}{{ page.header | append: " | "}}{%- endunless -%}{{ site.title }}</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.header %}{{page.header}}{% else %}{{site.title}}{% endif %}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/radio.png">
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/sitemap.xml" title="RSS Feed">
+  <link rel="icon" href="{{ site.url }}/assets/img/favicon.png" type="image/png">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "M.Deep Radio",
+  "url": "https://mdeep.ru",
+  "logo": "{{ site.url }}/assets/img/radio.png",
+  "sameAs": [
+    "https://t.me/dhtop",
+    "https://vk.com/deepmania",
+    "https://www.instagram.com/mdeepradio/"
+             ]
+  }
+  </script>
+  {% if page.robots %}
+  <meta name="robots" content="{{page.robots}}" />
+  {% endif %}{%- if site.listen_for_clients_preferred_style -%}
+  <meta name="description" content="Интернет радиостанция с популярной спокойной и расслабляющей электронной музыкой. Только избранные треки в жанре Deep House и Chillout.">
+  <link rel="icon" href="https://mdeep.ru/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
+  {%- else -%}
+    {%- if site.style == 'light' -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
+    {%- elsif site.style == 'hacker' -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-hacker.css" | relative_url }}">
+    {%- else -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}"> {%- endif -%}{%- endif -%}{%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+ <script>window.yaContextCb=window.yaContextCb||[]</script>
+ </head>
