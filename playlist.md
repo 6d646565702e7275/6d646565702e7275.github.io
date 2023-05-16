@@ -6,7 +6,7 @@ permalink: /playlist
 description: История треков за 24 часа
 ---
 <style>.chatbro_message_auth_name {display:none;}</style>
-# История треков за 24 часа
+# Плейлист
 
 История треков за 24 часа в канале [/telegram](https://t.me/plsdeep){:rel="noreferrer nofollow"}{:target="_blank"}
 <div id="playlist"></div>
