@@ -5,6 +5,6 @@ description: Интернет радиостанция с популярной �
 
 <div id="player"></div>
 <br>
-  <div class="badge"><a href="https://play.google.com/store/apps/details?id=com.mdeep.radio" target="_blank" rel="noreferrer nofollow"><img src="/assets/img/play-store-badge.png" alt="Deep House Android Radio"></a></div>
+  <div class="badge"><a href="https://play.google.com/store/apps/details?id=com.mdeep.radio" target="_blank" rel="noreferrer nofollow"><img src="/assets/img/play-store-badge.png" alt="Deep House Android Radio"></a></div><h1>Deep House Radio</h1>
 
 ## Новости радио
