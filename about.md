@@ -16,7 +16,5 @@ Online с 1 ноября 2017 года. Треков в базе 4300+
 
 ![Электропочта](/assets/img/mail.png)
 
-[internet-radio.com](https://www.internet-radio.com){:rel="noreferrer nofollow"}{:target="_blank"}
-
 *Материалы предоставлены исключительно для ознакомления без целей коммерческого использования.*
 
