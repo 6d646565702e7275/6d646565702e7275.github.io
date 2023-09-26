@@ -13,14 +13,13 @@ description: Радио создано и развивается одним че
 
 Всех неравнодушных благодарю за поддержку! Обнял, приподнял, покружил и поставил на место!ツ
 
-
-- Сбер: 4274320057098033
+- Сбер: 2202205329105024
 - Тинькофф: 5536913990458651
 - АльфаБанк: 2200150995201495
 - ЮMoney: 41001641489582
-- QIWI: DEEPRADIO
 - WebMoney: Z374524473681
-- BTC: bc1q69pk0wh363e63h3evyh7r2pcgev3e2lwdvse2p
-- ETH: 0x3dc9aaC085C8f960c60A9127297337a0b3CADa75
+- BTC: 13Ubc9Y4HcnjwJ8MsNd9y92k9TLcnssfhJ
+- USDT: TF4kUcwTH21ZFCV11V3Gxd33MFGcQRddAe
+- TON: UQCH9udGNMQUVs0Q0wf3QTvIODSGQl5Dajd468E89gPiZLeJ
 
 ![Поддержи радио](/assets/img/qr-code.png "Сканируй меня полностью"){:.centered}
